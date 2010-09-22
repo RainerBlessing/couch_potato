@@ -42,6 +42,7 @@ require 'core_ext/time'
 require 'core_ext/date'
 require 'core_ext/string'
 require 'core_ext/symbol'
+require 'core_ext/blank' unless defined?(Rails)
 require 'couch_potato/validation'
 require 'couch_potato/persistence'
 require 'couch_potato/railtie' if defined?(Rails)
