@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "lib/core_ext/string.rb",
      "lib/core_ext/symbol.rb",
      "lib/core_ext/time.rb",
+     "lib/core_ext/blank.rb",
      "lib/couch_potato.rb",
      "lib/couch_potato/database.rb",
      "lib/couch_potato/persistence.rb",
